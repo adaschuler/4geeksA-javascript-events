@@ -4,3 +4,10 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+function alertPop() {
+  alert("wuju");
+}
+
+// Add event listener to table
+const el = document.getElementById("theGreen");
+el.addEventListener("click", alertPop);
